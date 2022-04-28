@@ -1,15 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: darkslategray;
+    background-color: #150734;
 }
 
 
 .titulo{
-    color: red;
+    color: black;
+    text-align: center;
+    background-color: aliceblue;
 }
 
 .textoPrueba{
     color: bisque;
-    margin-top: 15%;
+    margin-top: 5%;
 }
