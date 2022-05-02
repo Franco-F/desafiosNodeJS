@@ -1,3 +1,4 @@
+import CartIcon from "./CartIcon/CartIcon";
 export default function Navbar(){
 
     
@@ -12,10 +13,12 @@ export default function Navbar(){
     const listStyle = {
         marginLeft: "5px",
         marginRight: "5px",
+        color: "black",
     }
     return(
         <header className="header">
-            <div className="logo" style={{color: "white"}}>Logo</div>
+            <div className="logo" style={{color: "white"}}></div>
+            <CartIcon count={1} />
             <ul className="links" style={headerStyles}>
                 <li style={listStyle}>Inicio</li>
                 <li style={listStyle}>Productos</li>
