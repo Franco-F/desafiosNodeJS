@@ -1,18 +1,19 @@
-import { Nav, Placeholder } from "react-bootstrap";
+import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 
 
 function App() {
-
+  const [text, setText] = React.useState("Valor inicial");
   return (
     <div>
       <h1 className="titulo">Mantelería online</h1>
       <p className="textoPrueba">Menú e-commerce</p>
       <Navbar />
-      <ItemListContainer placeholderN={1} />
-      <ItemListContainer placeholderN={2} />
-      <ItemListContainer placeholderN={3} />
+      <ItemListContainer num = {"1"}/>
+      <ItemListContainer num = {"2"}/>
+      <ItemListContainer num = {"3"}/>
+      {text}
     </div> 
   );
 }

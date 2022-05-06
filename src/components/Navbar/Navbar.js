@@ -1,7 +1,7 @@
 import CartIcon from "./CartIcon/CartIcon";
 export default function Navbar(){
 
-    
+
     const headerStyles = {
         display: "flex",
         flexWrap: "wrap",

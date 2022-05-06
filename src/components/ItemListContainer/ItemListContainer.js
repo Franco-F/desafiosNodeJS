@@ -1,13 +1,9 @@
 import React from "react";
 
-export default class ItemListContainer extends React.Component{
-
-    render(){
-        console.log(this.props)
-        return(
-            <div>
-                <p>Placeholder {this.props.placeholderN}</p>
-            </div>
-        )
-    }
+export default function ItemListContainer(props){
+    return(
+        <div>
+            <p>Placeholder {props.num}</p>
+        </div>
+    )
 }
