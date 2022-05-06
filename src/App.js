@@ -11,9 +11,9 @@ function App() {
       <p className="textoPrueba">Menú e-commerce</p>
       <Navbar />
       <ItemListContainer num = {"1"}/>
-      <ItemListContainer num = {"2"}/>
-      <ItemListContainer num = {"3"}/>
+
       {text}
+      
     </div> 
   );
 }
