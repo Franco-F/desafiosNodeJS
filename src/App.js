@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 
-
 function App() {
   const [text, setText] = React.useState("Valor inicial");
   return (
